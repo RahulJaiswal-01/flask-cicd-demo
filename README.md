@@ -35,6 +35,24 @@ flask-app/
 ├── requirements.txt
 └── README.md
 ```
+## Architecture Diagram
+
+```
+Developer
+    │
+    ▼
+ GitHub
+    │
+    ▼
+ Jenkins
+    │
+    ▼
+ Docker Build
+    │
+    ▼
+ Container Deployment
+
+```
 
 ## Run Locally
 
